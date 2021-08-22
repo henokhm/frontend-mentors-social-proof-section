@@ -52,6 +52,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 1em;
+  margin-bottom: 2em;
 }
 
 .rating {
@@ -102,9 +103,9 @@ body {
   background-color: var(--very-dark-magenta);
   color: white;
   font-weight: 500;
-  margin: 0.5em;
+  margin: 1em;
   padding: 2em;
-  border-radius: 0.5em;
+  border-radius: 1em;
 }
 
 .testimonial__image {
