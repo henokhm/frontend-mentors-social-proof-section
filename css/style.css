@@ -35,14 +35,54 @@ body {
   text-align: center;
 }
 
-.page-title {
+.header__page-title {
   color: var(--very-dark-magenta);
   font-size: 2.5em;
   padding: 0 1em;
 }
 
-.intro {
+.header__intro {
   color: var(--dark-grayish-magenta);
   font-weight: 500;
   line-height: 1.4;
+}
+
+.ratings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: var(--light-grayish-magenta);
+  padding: 1em 2em;
+  border-radius: 0.5em;
+  margin: 0.5em 0;
+}
+
+.rating__text {
+  padding-left: 1em;
+  color: var(--very-dark-magenta);
+  font-weight: 700;
+}
+
+.rating-1 {
+}
+
+.rating-2 {
+}
+
+.rating-3 {
+}
+
+.rating-1__stars,
+.rating-2__stars,
+.rating-3__stars {
+  display: flex;
+  gap: 0.5em;
 }
