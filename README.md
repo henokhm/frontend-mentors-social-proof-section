@@ -31,5 +31,4 @@ I learned a lot about CSS Grids in this challenge. I also used multiple backgrou
 
 ## Author
 
-- Frontend Mentor - [@henokhm](https://www.frontendmentor.io/profile/
-  henokhm)
+- Frontend Mentor - [https://www.frontendmentor.io/profile/henokhm](https://www.frontendmentor.io/profile/henokhm)
