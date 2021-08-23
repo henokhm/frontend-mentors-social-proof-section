@@ -22,6 +22,12 @@ body {
   font-family: "Spartan", sans-serif;
   font-weight: 400;
   font-size: 15px;
+  background-color: var(--white);
+  background-image: url("../images/bg-pattern-top-mobile.svg"),
+    url("../images/bg-pattern-bottom-mobile.svg");
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .container {
@@ -133,6 +139,10 @@ body {
 }
 
 @media (min-width: 740px) {
+  body {
+    background-size: 40%, 100% 30%;
+  }
+
   .ratings,
   .testimonials {
     flex-direction: row;
@@ -153,6 +163,11 @@ body {
 }
 
 @media (min-width: 920px) {
+  body {
+    background-image: url("../images/bg-pattern-top-desktop.svg"),
+      url("../images/bg-pattern-bottom-desktop.svg");
+  }
+
   .container {
     display: grid;
     grid-template-columns: 40% 60%;
